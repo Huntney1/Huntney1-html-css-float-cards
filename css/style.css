@@ -1,3 +1,4 @@
+/** regole */
 *{
     padding: 0;
     margin: 0;
@@ -9,7 +10,32 @@
     display: table;
     clear: both;
 }
-
-body{
-    background-color: white;
+/** header */
+header{
+    margin: 31px 0;
+    text-align: center;
 }
+
+.header-continer{
+    font-size: 10px;
+    color: rgba(229,49,112,255);
+}
+
+/** body */
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.continer{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.row{
+    margin-bottom: 40px; 
+ }
+
+.p-container{
+    text-align: center;
+}
+
