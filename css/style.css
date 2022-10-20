@@ -11,6 +11,13 @@
     clear: both;
 }
 
+/** body */
+body {
+
+    background-color: rgb(255, 255, 255);
+    font-family: 'Fredoka', sans-serif;
+}
+
 /** header */
 header {
     margin: 31px 0;
@@ -22,23 +29,49 @@ header {
     color: rgba(229, 49, 112, 255);
 }
 
-/** body */
-body {
-
-    background-color: rgb(255, 255, 255);
-    font-family: 'Fredoka', sans-serif;
-}
-
 .container {
     width: 75%;
     margin: 0px 14%;
-    display: inline-block;
+    
 }
 
-.row {
-    margin-bottom: 40px;
-}
-
-.p-container {
+ .p-container {
     text-align: center;
 }
+
+.card{
+width: 45%;
+margin: 0 auto;
+}
+
+.row{
+    background-color: black;
+    color: white;
+    margin-top: 20px; 
+    padding: 10px 10px;
+}
+
+.row img{
+    height: 89px;
+    float: left;
+    margin: -10px 11px 0px -10px;
+}
+
+span a{
+    text-decoration: none;
+}
+
+/* .contents{
+    float: left;
+    color: white;
+    
+    width: calc(100% / 3)
+}
+ */
+
+
+/*  width: calc(100% / 3); 
+      */
+
+
+ 
