@@ -40,8 +40,11 @@ header {
 }
 
 .card{
+    
+float: left;
 width: 45%;
 margin: 0 auto;
+
 }
 
 .row{
@@ -49,6 +52,14 @@ margin: 0 auto;
     color: white;
     margin-top: 20px; 
     padding: 10px 10px;
+    
+}
+
+.card .row {
+    margin-left: 10px;
+    float: left;
+    width: 45%;
+    width: calc(100% / 3)
 }
 
 .row img{
@@ -65,7 +76,7 @@ span a{
     float: left;
     color: white;
     
-    width: calc(100% / 3)
+    
 }
  */
 
